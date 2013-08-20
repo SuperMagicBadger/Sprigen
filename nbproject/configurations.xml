@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>include/Button.h</itemPath>
+      <itemPath>include/ConfigFile.h</itemPath>
+      <itemPath>include/Drawing.h</itemPath>
+      <itemPath>include/Frame.h</itemPath>
+      <itemPath>include/Spinner.h</itemPath>
+      <itemPath>include/Sprites.h</itemPath>
+      <itemPath>include/Text.h</itemPath>
+      <itemPath>include/Virtuals.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/Button.cpp</itemPath>
+      <itemPath>src/ConfigFile.cpp</itemPath>
+      <itemPath>src/Drawing.cpp</itemPath>
+      <itemPath>src/Frame.cpp</itemPath>
+      <itemPath>src/Spinner.cpp</itemPath>
+      <itemPath>src/Sprites.cpp</itemPath>
+      <itemPath>src/Text.cpp</itemPath>
+      <itemPath>src/Virtuals.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Static" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>C:/Program Files (x86)/SDL_DEV/SDL-1.2.15/include</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/SDL-1.2.15/include</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/SDL_image-1.2.12/include</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/Cairo/include</pElem>
+            <pElem>C:/Users/Cow/Documents/NetBeansProjects/DrawEngine/include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+    </conf>
+    <conf name="Dynamic" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandlineTool>g++.exe</commandlineTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/SDL-1.2.15/include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/SDL-1.2.15/include</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/SDL_image-1.2.12/include</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/Cairo/include</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/SDL_ttf-2.0.11/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libSprigen.${CND_DLIB_EXT}</output>
+          <linkerAddLib>
+            <pElem>C:/Program Files (x86)/SDL_DEV/SDL-1.2.15/lib</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/SDL_image-1.2.12/lib/x86</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/Cairo/lib</pElem>
+            <pElem>C:/Program Files (x86)/SDL_DEV/SDL_ttf-2.0.11/lib/x86</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>SDL.dll</linkerLibLibItem>
+            <linkerLibLibItem>SDLmain</linkerLibLibItem>
+            <linkerLibLibItem>SDL_image</linkerLibLibItem>
+            <linkerLibLibItem>cairo.dll</linkerLibLibItem>
+            <linkerLibLibItem>SDL_ttf</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
